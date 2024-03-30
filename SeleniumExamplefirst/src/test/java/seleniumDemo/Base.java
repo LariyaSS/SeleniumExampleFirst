@@ -8,9 +8,7 @@ public class Base {
 
 	public void initialize() {
 		driver = new ChromeDriver();
-		//ChromeDriver driver=new ChromeDriver();
-		
-		driver.get("https://selenium.qabible.in/");
+		driver.get("https://selenium.qabible.in/simple-form-demo.php");
 		driver.manage().window().maximize();
 	}
 
