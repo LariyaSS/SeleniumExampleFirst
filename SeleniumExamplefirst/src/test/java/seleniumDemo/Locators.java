@@ -3,7 +3,7 @@ package seleniumDemo;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-public class WebElementCommands extends Base {
+public class Locators extends Base {
 	public void webElementCommands() {
 		WebElement showMessageButton = driver.findElement(By.id("button-one"));
 		WebElement radiobutton = driver.findElement(By.linkText("Radio Buttons Demo"));
@@ -157,7 +157,7 @@ public class WebElementCommands extends Base {
 
 	public static void main(String[] args) {
 
-		WebElementCommands webelementscommand = new WebElementCommands();
+		Locators webelementscommand = new Locators();
 		webelementscommand.initialize();
 		webelementscommand.webElementCommands();
 		webelementscommand.browserQuit();
